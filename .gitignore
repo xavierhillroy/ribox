@@ -1,0 +1,14 @@
+# Build artifacts
+*.o
+*.d
+
+# Binaries
+lgp_run
+lgp_test
+gen_datasets
+# regens
+results/
+programs/
+logs/
+history/
+__pycache__/

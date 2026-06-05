@@ -1,0 +1,8 @@
+- unary uses src2 so it can be either reg or constant
+- MSB is src2 const flag 
+- Using chunk processor for SR (32 lanes)
+- fitness score higher is better in tournaments, need a converter from raw score to higher is better in the Fitness namespace to handle conversion if required
+- must wrap evaluate with the conversion in evaluators
+- pick one instruct and mutate 
+- micro mutate/ append tail and delete tail mutations... 3 dif rng calls could cause divergence... worth thinking about if port to GPU 
+- use R^2 instead of MSE 
